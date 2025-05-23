@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Restaurant icon -->
+    <circle cx="100" cy="100" r="95" fill="#f8b500"/>
+    <circle cx="100" cy="100" r="85" fill="#fff"/>
+    <path d="M60 70 h80 a20 20 0 0 1 20 20 v40 a20 20 0 0 1 -20 20 h-80 a20 20 0 0 1 -20 -20 v-40 a20 20 0 0 1 20 -20 z" fill="#f8b500"/>
+    <!-- Plate details -->
+    <circle cx="100" cy="100" r="35" fill="#fff"/>
+    <circle cx="100" cy="100" r="30" fill="#f8b500"/>
+    <!-- Text -->
+    <text x="100" y="160" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">myResto</text>
+</svg>

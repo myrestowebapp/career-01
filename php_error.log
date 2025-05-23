@@ -1,0 +1,410 @@
+[30-Mar-2025 03:19:04 Europe/Berlin] PHP Warning:  mime_content_type(D:\localhost\tmp\phpE414.tmp): Failed to open stream: No such file or directory in D:\localhost\htdocs\career\submit_application.php on line 222
+[12-Apr-2025 05:02:11 Europe/Berlin] Attempting to send email to: saaris.imran.etpa@gmail.com
+[12-Apr-2025 05:02:11 Europe/Berlin] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-73bd21c63f8sm2527228b3a.68 - gsmtp
+
+[12-Apr-2025 05:02:11 Europe/Berlin] CLIENT -> SERVER: EHLO localhost
+
+[12-Apr-2025 05:02:12 Europe/Berlin] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2401:4900:6868:fe10:fdf2:a7e9:262e:c977]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[12-Apr-2025 05:02:12 Europe/Berlin] CLIENT -> SERVER: STARTTLS
+
+[12-Apr-2025 05:02:12 Europe/Berlin] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[12-Apr-2025 05:02:13 Europe/Berlin] CLIENT -> SERVER: EHLO localhost
+
+[12-Apr-2025 05:02:13 Europe/Berlin] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2401:4900:6868:fe10:fdf2:a7e9:262e:c977]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[12-Apr-2025 05:02:13 Europe/Berlin] CLIENT -> SERVER: AUTH LOGIN
+
+[12-Apr-2025 05:02:13 Europe/Berlin] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[12-Apr-2025 05:02:13 Europe/Berlin] CLIENT -> SERVER: [credentials hidden]
+[12-Apr-2025 05:02:14 Europe/Berlin] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[12-Apr-2025 05:02:14 Europe/Berlin] CLIENT -> SERVER: [credentials hidden]
+[12-Apr-2025 05:02:14 Europe/Berlin] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[12-Apr-2025 05:02:14 Europe/Berlin] CLIENT -> SERVER: MAIL FROM:<career.myrestotoday@gmail.com>
+
+[12-Apr-2025 05:02:14 Europe/Berlin] SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-73bd21c63f8sm2527228b3a.68 - gsmtp
+
+[12-Apr-2025 05:02:14 Europe/Berlin] CLIENT -> SERVER: RCPT TO:<saaris.imran.etpa@gmail.com>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-73bd21c63f8sm2527228b3a.68 - gsmtp
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER: DATA
+
+[12-Apr-2025 05:02:15 Europe/Berlin] SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-73bd21c63f8sm2527228b3a.68 - gsmtp
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER: Date: Sat, 12 Apr 2025 05:02:11 +0200
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER: To: Haris I M <saaris.imran.etpa@gmail.com>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER: From: myResto Today Pvt Ltd <career.myrestotoday@gmail.com>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER: Reply-To: myResto Today <chairman@myresto.today>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER: Subject: Thank You for Your Application
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER: Message-ID: <JG7ZNq51zdIuWVQdpqC8jFAwZpbBZHLFFKRTxwy0@localhost>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.2 (https://github.com/PHPMailer/PHPMailer)
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER: MIME-Version: 1.0
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER: 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:  
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         <!DOCTYPE html>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER: <html lang="en">
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER: <head>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:     <meta charset="UTF-8">
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:     <title>MyResto Today - Career Application</title>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:     <link rel="preconnect" href="https://fonts.googleapis.com">
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:     <style>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         body { 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             font-family: "Open Sans", sans-serif; 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             background-color: rgb(10, 5, 1); 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             color: #fff; 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             line-height: 1.6; 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             margin: 0;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             padding: 0;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         }
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         .container { 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             max-width: 600px; 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             margin: 30px auto; 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             padding: 0; 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             background: rgb(20, 12, 5); 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             border-radius: 10px; 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             border: 1px solid rgba(255,255,255,0.1);
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             overflow: hidden;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         }
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         .header { 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             background: linear-gradient(135deg,rgb(26, 15, 2) 0%,rgb(83, 58, 4) 100%);
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             padding: 25px 20px; 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             text-align: center; 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             color: white;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         }
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         .header img {
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             width: 200px;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             height: auto;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             padding: 10px;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             margin-bottom: 15px;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         }
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         .header h2 {
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             margin: 0;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             font-weight: 600;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             font-size: 24px;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         }
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         .content { 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             padding: 30px; 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             text-align: left; 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             color: #fff;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         }
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         .content p {
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             margin-bottom: 15px;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             font-size: 16px;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             color: #fff;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         }
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         .content a {
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             color: #f0f6f7;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             text-decoration: underline;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             transition: color 0.3s ease;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         }
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         .content a:hover {
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             color: rgb(204, 129, 58);
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         }
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         .content ul {
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             margin-bottom: 20px;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             padding-left: 20px;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         }
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         .content li {
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             margin-bottom: 8px;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         }
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         .footer { 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             background-color: rgb(10, 5, 1); 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             color: #fff; 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             padding: 20px; 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             text-align: center; 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             border-top: 1px solid rgba(255,255,255,0.1);
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             font-size: 14px;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         }
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         .footer p {
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             margin-bottom: 10px;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         }
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         .btn { 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             display: inline-block; 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             margin-top: 20px; 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             background: rgb(22, 17, 2); 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             color: #fff; 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             padding: 12px 25px; 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             border-radius: 6px; 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             text-decoration: none; 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             font-weight: 600;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             text-align: center;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             transition: all 0.3s ease;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         }
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         .btn:hover { 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             background: rgb(43, 13, 4); 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             transform: translateY(-2px);
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         }
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         .social-icons a { 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             color: rgb(204, 129, 58); 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             font-size: 18px; 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             margin: 0 8px; 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             text-decoration: none;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             transition: color 0.3s ease;
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         }
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         .social-icons a:hover { 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             color: rgb(63, 5, 5); 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         }
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:     </style>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER: </head>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER: <body>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:     <div class="container">
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         <div class="header">
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             <img src="https://myresto.today/logo.png" alt="myResto Today Logo">
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             <h2>Thank You for Your Application!</h2>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         </div>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         <div class="content">
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             <p>Dear Haris I M,</p>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             <p>Thank you for applying to join our team at myResto Today. We're excited about your interest in our company and the skills you can bring to our growing team.</p>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             <p>Here's a summary of the information you provided:</p>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             <ul>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:                 <li><strong>Email:</strong> saaris.imran.etpa@gmail.com</li>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:                 <li><strong>Mobile:</strong> 9747650180</li>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:                 <li><strong>Skills:</strong> iii</li>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             </ul>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             <p>To complete your application process, please schedule an online meeting with our CEO at your earliest convenience:</p>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             <div style="text-align: center;">
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:                 <a href="https://calendly.com/haris-imran-etpa/face_to_face_meeting" class="btn">Schedule Your Meeting</a>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             </div>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             <p style="margin-top: 25px;">If you have any questions or need to update your information, please contact us at <a href="mailto:chairman@myresto.today">chairman@myresto.today</a>.</p>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         </div>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         <div class="footer">
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             <p>&copy; 2025 myResto Today Pvt Ltd. All rights reserved.</p>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             <p>Building No. 60/44, JC Chambers, Panampilly Nagar, Ernakulam - 682036, Kerala</p>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             <p>Email: chairman@myresto.today | +91 9747 650 176</p>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             <div class="social-icons">
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:                 <a href="https://facebook.com/myrestotoday" target="_blank"><i class="fab fa-facebook-f"></i></a>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:                 <a href="https://twitter.com/myrestotoday" target="_blank"><i class="fab fa-twitter"></i></a>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:                 <a href="https://instagram.com/myrestotoday" target="_blank"><i class="fab fa-instagram"></i></a>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:                 <a href="https://linkedin.com/company/myrestotoday" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             </div>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         </div>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:     </div>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:     
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:     <!-- Audio element -->
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:     <audio id="pageSound" src="sounds/alert.mp3"></audio>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER: 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:     <!-- JS to delay 0.25 seconds and play -->
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:     <script>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:     window.addEventListener("load", function () {
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         setTimeout(function () {
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             const sound = document.getElementById("pageSound");
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             sound.play().catch(function(error) {
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:                 console.log("Auto-play blocked:", error);
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:             });
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         }, 250); // 250ms = 0.25 seconds
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:     });
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:     </script>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER: </body>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER: </html>
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER:         
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER: 
+
+[12-Apr-2025 05:02:15 Europe/Berlin] CLIENT -> SERVER: .
+
+[12-Apr-2025 05:02:17 Europe/Berlin] SERVER -> CLIENT: 250 2.0.0 OK  1744426940 d2e1a72fcca58-73bd21c63f8sm2527228b3a.68 - gsmtp
+
+[12-Apr-2025 05:02:17 Europe/Berlin] CLIENT -> SERVER: QUIT
+
+[12-Apr-2025 05:02:17 Europe/Berlin] SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-73bd21c63f8sm2527228b3a.68 - gsmtp
+
+[12-Apr-2025 05:02:17 Europe/Berlin] Email sent successfully to: saaris.imran.etpa@gmail.com
+[12-Apr-2025 05:12:49 Europe/Berlin] New application submitted by: Haris I M (iaaris.imran.etpa@gmail.com)

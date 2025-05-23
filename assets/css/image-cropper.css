@@ -1,0 +1,67 @@
+/**
+ * Image Cropper Styles for Career Portal
+ */
+
+/* Cropper Modal */
+.crop-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.crop-modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.crop-container {
+    max-height: 70vh;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.crop-container img {
+    display: block;
+    max-width: 100%;
+}
+
+.crop-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Profile Image Preview */
+.profile-preview {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #3498db;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .crop-modal-content {
+        width: 95%;
+        margin: 10% auto;
+    }
+    
+    .crop-container {
+        max-height: 60vh;
+    }
+}
