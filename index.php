@@ -174,7 +174,7 @@
         <img src="https://myresto.today/03_images/logo.png" alt="myResto Today Logo" style="width: 180px; height: auto; margin-right: 45px;">
         <div class="header-text">
             <h1>Join Our Team</h1>
-            <p>myResto Today - Building the future of food technology</p>
+            <p>myResto Today - Building the future of food technology .</p>
         </div>
     </div>
 </header>
